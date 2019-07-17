@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/disaisoft/Aplicacion-en-React/issues"
   },
-  "homepage": "https://github.com/disaisoft/Aplicacion-en-React#readme"
+  "homepage": "https://github.com/disaisoft/Aplicacion-en-React#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6"
+  }
 }
