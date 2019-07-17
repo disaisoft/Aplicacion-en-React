@@ -4,7 +4,10 @@
   "description": "Portafolio digital creado desde cero haciendo uso de REACT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+
   },
   "repository": {
     "type": "git",
@@ -21,7 +24,8 @@
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "babel-plugin-transform-class-properties": "^6.24.1"
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "html-webpack-plugin": "^3.2.0",
